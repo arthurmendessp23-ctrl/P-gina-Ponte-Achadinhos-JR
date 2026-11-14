@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eef5f1">
+  <meta name="description" content="Receba cupons e ofertas da Shopee no grupo gratuito dos Achadinhos JR no WhatsApp.">
+  <meta property="og:title" content="Achadinhos JR | Grupo de ofertas">
+  <meta property="og:description" content="Cupons e achadinhos da Shopee direto no seu WhatsApp.">
+  <meta property="og:type" content="website">
+  <title>Achadinhos JR | Grupo de ofertas no WhatsApp</title>
+  <link rel="stylesheet" href="ponte.css">
+  <script defer src="group.js"></script>
+</head>
+<body>
+  <header class="frame masthead">
+    <div class="brand"><img src="joyce.webp" alt="" width="40" height="40"> Achadinhos JR</div>
+  </header>
+  <main class="frame">
+    <section class="hero" aria-labelledby="title">
+      <div class="intro">
+        <h1 id="title">Achadinhos da Shopee <em>no seu WhatsApp.</em></h1>
+        <p>Receba os cupons e as ofertas que a Joyce seleciona e confira os produtos direto pelo link de cada achado.</p>
+        <p class="availability availability-low" id="availability-note"><strong>Grupo gratuito de cupons e ofertas</strong></p>
+        <div class="availability" id="availability" hidden>
+          <div class="availability-label"><strong id="remaining"></strong><span id="occupancy"></span></div>
+          <progress id="group-progress" max="1000" value="0" aria-label="Ocupação do grupo"></progress>
+        </div>
+        <a class="button" data-join href="https://chat.whatsapp.com/KbdTbKXFyHr0CN2RZX2wiw">Entrar grátis no WhatsApp <span aria-hidden="true">→</span></a>
+        <p class="join-note">Você confirma a entrada no próprio WhatsApp.</p>
+      </div>
+      <figure class="preview">
+        <div class="message">
+          <div class="sender">
+            <img src="joyce.webp" alt="" width="48" height="48">
+            <div><strong>Achadinhos JR</strong><span>Grupo de ofertas</span></div>
+          </div>
+          <div class="bubble">
+            <strong>Organizador de gaveta</strong>
+            <p>Um achadinho pra colocar as pequenas coisas no lugar.</p>
+            <div class="message-detail">Cupom, quando disponível<br>Link direto do produto</div>
+          </div>
+        </div>
+        <figcaption>Exemplo de mensagem do grupo</figcaption>
+      </figure>
+    </section>
+    <section class="benefits" aria-labelledby="benefits-title">
+      <h2 id="benefits-title">Por que entrar?</h2>
+      <ul>
+        <li><h3>Achados escolhidos pela Joyce</h3><p>Veja uma seleção de produtos sem precisar garimpar no aplicativo.</p></li>
+        <li><h3>Cupons e links no mesmo lugar</h3><p>Confira os detalhes da oferta e abra o produto na Shopee.</p></li>
+        <li><h3>Entrada gratuita</h3><p>Acompanhe as ofertas no WhatsApp e saia quando quiser.</p></li>
+      </ul>
+    </section>
+    <footer>
+      <p>Grupo independente. Links de afiliada podem gerar comissão para a Joyce. Preços, cupons e disponibilidade podem mudar.</p>
+      <button type="button" id="privacy-button" hidden>Preferências de medição</button>
+    </footer>
+    <dialog id="privacy" aria-labelledby="privacy-title">
+      <h2 id="privacy-title">Medição de anúncios</h2>
+      <p>Se você permitir, usamos o Pixel da Meta para medir visitas à página e cliques no botão do grupo. Você pode entrar no grupo com qualquer uma das opções.</p>
+      <div class="choices">
+        <button type="button" id="decline">Recusar</button>
+        <button type="button" id="accept">Permitir</button>
+      </div>
+    </dialog>
+  </main>
+</body>
+</html>
